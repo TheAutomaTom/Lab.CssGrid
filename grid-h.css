@@ -1,5 +1,5 @@
 
-#grid-g1{  
+#grid-h1{  
   width:40em;
   height:45em;
   display: grid;
@@ -7,7 +7,7 @@
   grid-template-rows: 5em 30em 10em;
   }
 
- #grid-g2{
+ #grid-h2{
   background-color:lightgreen;
   display: grid;
   grid-template-columns: 5em 10em;
@@ -18,30 +18,28 @@
   
 } 
 
-#grid-g2a{
+#flex-h2a{
   grid-row: 1/ -1;
   grid-column: 1/ 2;
   
   background-color:limegreen;
-  display: grid;
-  grid-template-rows: repeat(3 3em);
-  
+  display: flex;
+  flex-direction: column;
 }
 
-.g2a-item{
-  
+.h2a-item{
+  /* flex-grow: 1; */
+  height:3em;
+  width:100%;
 }
 
-#grid-g2b{
-  grid-row: 1/ -1;
-  grid-column: 2/ -1;
-  s
+#grid-h2b{
 }
 
-#grid-g2b-item{
+#grid-h2b-item{
 
 }
 
-.g2a-item{
+.h2a-item{
   /* height:3em; */
 }
