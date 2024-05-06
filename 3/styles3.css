@@ -19,6 +19,11 @@
   
 }
 
+.toolbox-menu-item{
+  height:2.5em;
+
+}
+
 #toolbox-drawer{
   background-color:limegreen;
   grid-row:1/3;
