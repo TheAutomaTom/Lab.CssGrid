@@ -4,41 +4,103 @@
     <title>CSS Lab</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <body>
-      <h1>grid-d</h1>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <h1>grid-g</h1>
+      <p>Nested 2-column Grid</p>
+
+      <div class="bordered" id="grid-g1">
+
+        <div class="bordered">A1</div>
+        <div class="bordered">A2</div>
+        <div class="bordered">A3</div>
+        <div class="bordered" id="grid-g2">          
+          <div class="bordered" class="g2-item" style="background-color:yellow;">B1</div>
+          <div class="bordered" class="g2-item" style="background-color:blue;">B2</div>
+          <div class="bordered" class="g2-item" style="background-color:green;">B3</div>
+          <div class="bordered" class="g2-item" >B4</div>
+          <div class="bordered" class="g2-item" >B5</div>
+          <div class="bordered" class="g2-item" >B6</div>
+        </div>        
+        <div class="bordered">A5</div>
+        <div class="bordered">A6</div>
+        <div class="bordered">A7</div>
+        <div class="bordered">A8</div>
+        <div class="bordered">A9</div>
+
+      </div>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <h1>grid-f</h1>
+      <p>Nested Grid</p>
+
+      <div class="bordered" id="grid-f1">
+
+        <div class="bordered">A1</div>
+        <div class="bordered">A2</div>
+        <div class="bordered">A3</div>
+        <div class="bordered" id="grid-f2">          
+          <div class="bordered" class="f2-item" style="background-color:yellow;">B1</div>
+          <div class="bordered" class="f2-item" style="background-color:blue;">B2</div>
+          <div class="bordered" class="f2-item" style="background-color:green;">B3</div>
+          <div class="bordered" class="f2-item" >B4</div>
+          <div class="bordered" class="f2-item" >B5</div>
+          <div class="bordered" class="f2-item" >B6</div>
+        </div>        
+        <div class="bordered">A5</div>
+        <div class="bordered">A6</div>
+        <div class="bordered">A7</div>
+        <div class="bordered">A8</div>
+        <div class="bordered">A9</div>
+
+      </div>
       
-      <div id="grid-d">
-        <div class="bordered" id="grid-c1">
-          <p class="txt-mars">
-            D1 <svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
-            </svg>
-          </p>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <h1>grid-e</h1>
+      <div id="grid-e">
+        <div id="grid-e-col-left">
+          <div class="bordered" id="grid-e1">A1</div>
+          <div class="bordered" id="grid-e2">A2</div>
+          <div class="bordered" id="grid-e3">A3</div>
+          <div class="bordered" id="grid-e4">A4</div>
+          <div class="bordered" id="grid-e5">A5</div>
+          <div class="bordered" id="grid-e6">A6</div>
+          <div class="bordered" id="grid-e7">A7</div>
+          <div class="bordered" id="grid-e8">A8</div>
+          <div class="bordered" id="grid-e9">A9</div>
+          <div class="bordered" id="grid-e10">A10</div>        
         </div>
-        <div class="bordered" id="grid-c2">
-          <p class="txt-mars">
+        <div class="bordered" id="grid-e-col-right">
+          Tall Span
+        </div>
+
+      </div>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <h1>grid-d</h1>
+      <span>Note: width and sum of columns' width should equal</span>
+      <div id="grid-d">
+        <div class="bordered" id="grid-d1">
+            D1
+        </div>
+        <div class="bordered" id="grid-d2">
             D2 <svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
             </svg>
-          </p>
         </div>
-        <div class="bordered" id="grid-c3">
-          <p class="txt-mars">
+        <div class="bordered" id="grid-d3">
             D3 <svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
             </svg>
-          </p>
         </div>
-        <div class="bordered" id="grid-c4">
-          <p class="txt-mars">
+        <div class="bordered" id="grid-d4">
             C4 <svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
             </svg>
-          </p>
         </div>
-        <div class="bordered" id="grid-c5">D5</div>
-        <div class="bordered" id="grid-c6">D6</div>
-        <div class="bordered" id="grid-c7">D7</div>
-        <div class="bordered" id="grid-c8">D8</div>
-        <div class="bordered" id="grid-c9">D9</div>
-        <div class="bordered" id="grid-c10">D10</div>
+        <div class="bordered" id="grid-d5">D5</div>
+        <div class="bordered" id="grid-d6">D6</div>
+        <div class="bordered" id="grid-d7">D7</div>
+        <div class="bordered" id="grid-d8">D8</div>
+        <div class="bordered" id="grid-d9">D9</div>
+        <div class="bordered" id="grid-d10">D10</div>
         
       </div>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <h1>grid-c</h1>
       
       <div id="grid-c">
@@ -73,8 +135,8 @@
         <div class="bordered" id="grid-c9">C9</div>
         <div class="bordered" id="grid-c10">C10</div>
         
-      </div>
-      
+      </div>      
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <h1>grid-b</h1>
       <div id="grid-b">
         <div class="bordered" id="grid-b1">B1</div>
@@ -86,9 +148,9 @@
         <div class="bordered" id="grid-b7">B7</div>
         <div class="bordered" id="grid-b8">B8</div>
         <div class="bordered" id="grid-b9">B9</div>
-        <div class="bordered" id="grid-b10">B10</div>
-        
+        <div class="bordered" id="grid-b10">B10</div>        
       </div>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <h1>grid-a</h1>
       <div id="grid-a">
         <div class="bordered" id="grid-a1">A1</div>
@@ -100,8 +162,7 @@
         <div class="bordered" id="grid-a7">A7</div>
         <div class="bordered" id="grid-a8">A8</div>
         <div class="bordered" id="grid-a9">A9</div>
-        <div class="bordered" id="grid-a10">A10</div>
-        
+        <div class="bordered" id="grid-a10">A10</div>        
       </div>
     </body>
   </head>

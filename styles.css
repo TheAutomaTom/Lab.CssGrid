@@ -3,3 +3,10 @@
 @import url("grid-b.css");
 @import url("grid-c.css");
 @import url("grid-d.css");
+@import url("grid-e.css");
+@import url("grid-f.css");
+@import url("grid-g.css");
+
+.bordered{
+  border: 1px grey solid;
+} 
