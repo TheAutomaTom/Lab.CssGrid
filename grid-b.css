@@ -1,0 +1,55 @@
+
+#grid-b{
+  background-color:goldenrod;
+  width:50vw;
+  height:50vh;
+  display: grid;
+  /* grid-template-columns: minmax(10px, 1fr) 2fr 1fr 1.5fr;
+  /* e.g. 
+      1fr 1fr
+      minmax(10px, 1fr) 3fr
+      repeat(5, 1fr)
+      50px auto 100px 1fr
+  */ */
+  grid-template-rows: repeat(3em);
+  
+}
+
+.bordered{
+} 
+
+#grid-b1{
+  
+}
+#grid-b2{
+
+}
+#grid-b3{
+}
+#grid-b4{
+
+}
+#grid-b5{
+
+}
+#grid-b6{
+
+}
+#grid-b7{
+
+}
+#grid-b8{
+
+}
+#grid-b9{
+
+}
+#grid-b10{
+
+}
+#grid-b11{
+
+}
+#grid-b12{
+
+}
