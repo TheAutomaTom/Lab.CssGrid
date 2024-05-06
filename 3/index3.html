@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <script src="scripts.js"></script>
   <head>
     <title>CSS Lab</title>
     <link rel="stylesheet" type="text/css" href="styles3.css">
@@ -8,17 +9,19 @@
         id="app-container" 
       >
         <div id="toolbox-menu"        class="bordered">
-          <div class="bordered toolbox-menu-item">A1</div>
-          <div class="bordered toolbox-menu-item">A2</div>
-          <div class="bordered toolbox-menu-item">A3</div>
-          <div class="bordered toolbox-menu-item">A4</div>
-          <div class="bordered toolbox-menu-item">A5</div>
-          <div class="bordered toolbox-menu-item">A6</div>
-          <div class="bordered toolbox-menu-item">A7</div>
-          <div class="bordered toolbox-menu-item">A8</div>
-          <div class="bordered toolbox-menu-item">A9</div>
-          <div class="bordered toolbox-menu-item">A10</div> 
-
+          <div id="toolbox-menu-start"        class="bordered">
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A1</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A2</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A3</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A4</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A5</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A6</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item">A7</div>
+          </div>
+          <div id="toolbox-menu-end"        class="bordered">
+            <div onclick="myFunction()" class="bordered toolbox-menu-item-end">A8</div>
+            <div onclick="myFunction()" class="bordered toolbox-menu-item-end">A9</div>
+          </div>
         </div>
         <div id="toolbox-drawer"      class="bordered">2</div>
         <div id="workbench-selector"  class="bordered">3</div>
